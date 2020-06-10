@@ -1,0 +1,5 @@
+volt = float(input("Input voltage "))
+R1 = float(input("Resistance 1 "))
+R2 = float(input("Resistance 2 "))
+output = (volt*R1)/(R1+R2)
+print(f"Output volatge {output}")
